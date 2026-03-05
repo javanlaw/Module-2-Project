@@ -1,0 +1,3 @@
+dbt-bigquery
+pandas
+google-cloud-bigquery
