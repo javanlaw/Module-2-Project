@@ -47,6 +47,7 @@ This project uses VS Code Tasks for automation. Press Ctrl + Shift + B to execut
 Bash
 # Manual Alternative:
 dbt run && dbt test && python audit_quality.py && python netflix_analysis.py
+
 🛡️ Data Quality Audit
 This pipeline features a mandatory Quality Gate. If the data contains missing keys or "Unknown" values, the visual report is suppressed to protect decision-making integrity.
 
