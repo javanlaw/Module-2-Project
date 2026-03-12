@@ -1,0 +1,12 @@
+elt_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: # Replace with your actual GCP Project ID
+      dataset: raw            # The dataset where your models will be built
+      threads: 4
+      timeout_seconds: 300
+      location: US            # e.g., US, EU, or us-central1
+      priority: interactive
